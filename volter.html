@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volunteer Registration - InAmigos Foundation</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+.header{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.container{
+    width:500px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    color:green;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    resize:none;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    margin-top:20px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:black;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Volunteer Registration</h1>
+    <p>Join InAmigos Foundation and Make a Difference</p>
+</div>
+
+<div class="container">
+
+<h2>Become a Volunteer</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name" required>
+
+<label>Email Address</label>
+<input type="email" placeholder="Enter your email" required>
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number" required>
+
+<label>Age</label>
+<input type="number" placeholder="Enter your age">
+
+<label>City</label>
+<input type="text" placeholder="Enter your city">
+
+<label>Area of Interest</label>
+<select>
+    <option>Education</option>
+    <option>Women Empowerment</option>
+    <option>Environment</option>
+    <option>Animal Welfare</option>
+    <option>Community Service</option>
+</select>
+
+<label>Why do you want to volunteer?</label>
+<textarea rows="5" placeholder="Write your answer here"></textarea>
+
+<button type="submit"><a href = "sucess.html">Register Now</a></button>
+
+</form>
+
+</div>
+
+<footer>
+    <h3>InAmigos Foundation</h3>
+    <p>Together We Can Make A Difference</p>
+</footer>
+
+</body>
+</html>
